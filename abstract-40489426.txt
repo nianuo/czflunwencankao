@@ -1,0 +1,46 @@
+1. PLoS One. 2025 Jun 9;20(6):e0325304. doi: 10.1371/journal.pone.0325304. 
+eCollection 2025.
+
+Evaluation of data driven low-rank matrix factorization for accelerated 
+solutions of the Vlasov equation.
+
+Jonnalagadda B(1), Becker S(1).
+
+Author information:
+(1)Department of Applied Mathematics, University of Colorado Boulder, Boulder, 
+Colorado, United States of America.
+
+Low-rank methods have shown success in accelerating simulations of a 
+collisionless plasma described by the Vlasov equation, but still rely on 
+computationally costly linear algebra every time step. We propose a data-driven 
+factorization method using artificial neural networks, specifically with 
+convolutional layer architecture, that trains on existing simulation data. At 
+inference time, the model outputs a low-rank decomposition of the distribution 
+field of the charged particles, and we demonstrate that this step is faster than 
+the standard linear algebra technique. Numerical experiments show that the 
+method achieves comparable reconstruction accuracy for interpolation tasks, 
+generalizing to unseen test data in a manner beyond just memorizing training 
+data; patterns in factorization also inherently followed the same numerical 
+trend as those within algebraic methods (e.g., truncated singular-value 
+decomposition). However, when training on the first 70% of a time-series data 
+and testing on the remaining 30%, the method fails to meaningfully extrapolate. 
+Despite this limiting result, the technique may have benefits for simulations in 
+a statistical steady-state or otherwise showing temporal stability. These 
+results suggest that while the model offers a computationally efficient 
+alternative for datasets with temporal stability, its current formulation is 
+best suited for interpolation rather than for predicting future states in 
+time-evolving systems. This study thus lays the groundwork for further 
+refinement of neural network-based approaches to low-rank matrix factorization 
+in high-dimensional plasma simulations.
+
+Copyright: © 2025 Jonnalagadda, Becker. This is an open access article 
+distributed under the terms of the Creative Commons Attribution License, which 
+permits unrestricted use, distribution, and reproduction in any medium, provided 
+the original author and source are credited.
+
+DOI: 10.1371/journal.pone.0325304
+PMCID: PMC12148180
+PMID: 40489426 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors have declared that no competing 
+interests exist.

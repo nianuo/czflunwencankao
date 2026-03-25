@@ -1,0 +1,33 @@
+1. J Opt Soc Am A Opt Image Sci Vis. 2025 Jul 1;42(7):989-995. doi: 
+10.1364/JOSAA.552041.
+
+High-contrast dual-modal imaging of absorption and scattering using low-rank and 
+sparse matrix decomposition of light fields.
+
+Liu K, Wu J, Cao J, Zhuo R, Chen X, Zhou Q, Wang P, Shi G.
+
+Optical absorption and scattering are critical properties of biological tissues, 
+but strong background light often obscures this information, limiting imaging 
+contrast and the visualization of tissue microstructures. Current methods for 
+enhancing imaging contrast rely on image processing and noise suppression, but 
+often lose critical details under strong background light. To address this 
+issue, we propose a dual-modal imaging technique based on a low-rank and sparse 
+matrix decomposition (LRSD) of light fields, enabling simultaneous high-contrast 
+imaging of absorption and scattering and significantly improving imaging 
+performance. Monte Carlo simulation results demonstrate that the low-rank 
+component of the light field effectively separates background light, while the 
+sparse component accurately captures the absorption and scattering properties of 
+the target. In imaging experiments on skin follicle tissues, this method 
+successfully extracted absorption and scattering information, achieving a 
+twofold improvement in imaging contrast, with the SNR improving by 2.97 dB and 
+significantly enhancing the visualization of tissue microstructures. Compared to 
+traditional image filtering methods, the LRSD technique showed superior 
+performance under strong background light conditions. Furthermore, imaging 
+experiments on different regions of rabbit taste bud slices further validated 
+the broad applicability and potential of this method in biological imaging. The 
+high-contrast dual-modal imaging method proposed in this study demonstrates 
+exceptional capabilities in visualizing the tissue structure, offering an 
+innovative solution for the clinical evaluation of pathological sections.
+
+DOI: 10.1364/JOSAA.552041
+PMID: 40792953

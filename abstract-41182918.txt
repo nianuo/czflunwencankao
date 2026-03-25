@@ -1,0 +1,34 @@
+1. IEEE Trans Med Imaging. 2025 Nov 3;PP. doi: 10.1109/TMI.2025.3628159. Online 
+ahead of print.
+
+Feature Decomposition via Shared Low-rank Matrix Recovery for CT Report 
+Generation.
+
+Tian Y, Song Y.
+
+Generating reports for medical images is an important task in medical automation 
+that not only provides valuable objective diagnostic evidence but also 
+alleviates the workload of radiologists. Many existing studies focus on chest 
+X-rays that typically consist of one or a few images, where less attention is 
+paid to other medical image types, such as computed tomography (CT) that contain 
+a large number of continuous images. Many studies on CT report generation (CTRG) 
+rely on convolutional networks or standard Transformers to model CT slice 
+representation and combine them to obtain CT features, yet relatively little 
+research has focused on subtle lesion features and volumetric continuity. In 
+this paper, we propose shared low-rank matrix recovery (S-LMR) to decompose CT 
+slices into shared anatomical patterns and lesion-focused features, together 
+with continuous slice encoding (CSE) to explicitly model inter-slice continuity 
+and capture progressive changes across adjacent slices, which are subsequently 
+integrated with a large language model (LLM) for report generation. 
+Specifically, the S-LMR separates the common patterns from the sparse 
+lesion-focused features to highlight clinically significant information. Based 
+on the outputs of S-LMR, CSE captures inter-slice relationships within a 
+dedicated Transformer encoder and aligns the resulting visual features with 
+textual information, thereby instructing the LLM to produce a CT report. 
+Experiment results on benchmark datasets for CTRG show that our approach 
+outperforms strong baselines and existing models, demonstrating state-of-the-art 
+performance. Analyses further confirm that S-LMR and CSE effectively capture key 
+evidence, leading to more accurate CTRG.
+
+DOI: 10.1109/TMI.2025.3628159
+PMID: 41182918
